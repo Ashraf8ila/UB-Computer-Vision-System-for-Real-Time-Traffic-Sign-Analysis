@@ -137,59 +137,59 @@ For the training and evaluation of our models, we utilized an NVIDIA RTX 3080 GP
 
 Cropped traffic sign from the dataset, with the predicted class labels
 
-![[Images/5505144fbdf11192dcfd4a2cb28c6ea7_MD5.png]]
+![Traffic Sign Dataset](./Images/5505144fbdf11192dcfd4a2cb28c6ea7_MD5.png)
 
-![[Images/d70f80d289d170fd3682c6906b165c88_MD5.png]]
+![Model Performance](./Images/d70f80d289d170fd3682c6906b165c88_MD5.png)
 
 **VGG 13 Model**
 
-**![[Images/0d5ccc020ea6cf5915a369f9082f4f0e_MD5.png]]**
+![VGG13 Results 1](./Images/0d5ccc020ea6cf5915a369f9082f4f0e_MD5.png)
 
-![[Images/d79724af524f0953799aaa3c651834b3_MD5.png]]
+![VGG13 Results 2](./Images/d79724af524f0953799aaa3c651834b3_MD5.png)
 
-![[Images/90c227a0a3da5355ad8211c82381959c_MD5.png]]
+![VGG13 Results 3](./Images/90c227a0a3da5355ad8211c82381959c_MD5.png)
 
 **ResNet34 Model**
 
-![[Images/0d5ccc020ea6cf5915a369f9082f4f0e_MD5.png]]
+![ResNet34 Results 1](./Images/0d5ccc020ea6cf5915a369f9082f4f0e_MD5.png)
 
-![[Images/2d2aa36717d21fd4bfd9d1e70a4d4eda_MD5.png]]
+![ResNet34 Results 2](./Images/2d2aa36717d21fd4bfd9d1e70a4d4eda_MD5.png)
 
-![[Images/f741069b60fd50f6fb84b699b05ecd65_MD5.png]]
+![ResNet34 Results 3](./Images/f741069b60fd50f6fb84b699b05ecd65_MD5.png)
 
 **Vision Transformer Model**
 
-![[Images/0d5ccc020ea6cf5915a369f9082f4f0e_MD5.png]]
+![ViT Results1](./Images/0d5ccc020ea6cf5915a369f9082f4f0e_MD5.png)
 
-![[Images/2d2aa36717d21fd4bfd9d1e70a4d4eda_MD5.png]]
+![ViT Results2](./Images/2d2aa36717d21fd4bfd9d1e70a4d4eda_MD5.png)
 
-![[Images/50368d19d57651e8ee2f33abe6f933b7_MD5.png]]
+![ViT Results3](./Images/50368d19d57651e8ee2f33abe6f933b7_MD5.png)
 
 **VIT ResNet Hybrid Model**
 
-**![[Images/1653a47f03ced3e661e929454599e15a_MD5.png]]**
+![Hybrid Model Results 1](./Images/1653a47f03ced3e661e929454599e15a_MD5.png)
 
-**![[Images/eec760bbbc139904783d9d5aa56137a5_MD5.png]]**
+![Hybrid Model Results 1](./Images/eec760bbbc139904783d9d5aa56137a5_MD5.png)
 
-**![[Images/ac453f2bd4ece84bfd9fc4c547ec5541_MD5.png]]**
+![Hybrid Model Results 1](./Images/ac453f2bd4ece84bfd9fc4c547ec5541_MD5.png)
 
 **YOLO V11**
 
 **Predictions from the runs based on YOLO source (Auto generated):**
 
-  **![[Images/08d4abc3fa26871d1a13b258a1ba0bf5_MD5.jpg]]![[Images/a6b0f5e405f1798fe4696b58adfea6c8_MD5.jpg]]![[Images/f04c147e78655099f9fd5e0431c82c4f_MD5.jpg]]**
+  **![Image 1](./Images/08d4abc3fa26871d1a13b258a1ba0bf5_MD5.jpg) ![Image 2](./Images/a6b0f5e405f1798fe4696b58adfea6c8_MD5.jpg) ![Image 3](./Images/f04c147e78655099f9fd5e0431c82c4f_MD5.jpg)**
 
- **![[Images/d4054310773935d3ab89e3b197cb2373_MD5.jpg]]![[Images/644ea03ae1b764c05fb079cf142d14e8_MD5.jpg]]**
+ **![Image 4](./Images/d4054310773935d3ab89e3b197cb2373_MD5.jpg) ![Image 5](./Images/644ea03ae1b764c05fb079cf142d14e8_MD5.jpg)**
 
-  **![[Images/84c645602a72f65f1fab8349fd9cdc97_MD5.jpg]]![[Images/de146e88f30af8076a95c9b5b995c274_MD5.jpg]]![[Images/7bcb249710fc4160109054df11a8a215_MD5.jpg]]**
+  **![Image 6](./Images/84c645602a72f65f1fab8349fd9cdc97_MD5.jpg) ![Image 7](./Images/de146e88f30af8076a95c9b5b995c274_MD5.jpg) ![Image 8](./Images/7bcb249710fc4160109054df11a8a215_MD5.jpg)**
 
-![[Images/f738808ccbd2fa839047cba070194cc7_MD5.png]]
+![Image 9](./Images/f738808ccbd2fa839047cba070194cc7_MD5.png)
 
 ViT x ResNet on the images from YOLO
 
 Overall classification accuracy on test images: 98.1% which is slightly better than the pipeline without YOLO model.
 
-![[Images/b9a7749cfeeb5de6c7d049b3d46e612b_MD5.png]]
+![Overall Accuracy](./Images/b9a7749cfeeb5de6c7d049b3d46e612b_MD5.png)
 
 **Interpretation about the results:**
 
